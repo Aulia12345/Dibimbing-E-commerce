@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Playfair Display', sans-serif;
+}
+
+.navbar .navlist ul {
+    padding-left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.navbar .navlist li {
+    list-style-type: none;
+}
+
+.navbar .navlist li a {
+    text-decoration: none;
+    font-size: 1.05rem;
+    color: black;
+    padding: 0rem 1.2rem;
+    transition: all .2s ease-in-out;
+}
+
+.navbar .navlist li:hover a {
+    background-color: #186baf;
+    color: white;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+/* dropdown */
+
+/* Dropdown Button */
+.dropbtn {
+    text-decoration: none;
+    font-size: 1.05rem;
+    color: black;
+    transition: all .2s ease-in-out;
+    border: none;
+    outline: none;
+    background-color: white;
+    font-family: 'Playfair Display', sans-serif;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #186baf;
+    color: white;
+}
+
+.logo {
+    width: 15%;
+    height: 15%;
+}
+
+.navlist2 {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    font-size: 1.05rem;
+}
+
+.signin {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.signin p {
+    padding: 0rem 1.2rem;
+}
+
+.signin p:hover {
+    background-color: #186baf;
+    color: white;
+    cursor: pointer;
+    border-radius: 50px;
+
+}
+
+/* Style the search field */
+form.example input[type=text] {
+    padding: 5px;
+    font-size: 1.05rem;
+    border: 1px solid white;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+
+/* Style the submit button */
+form.example button {
+    float: left;
+    width: 20%;
+    padding: 5px;
+    background: #186baf;
+    border-radius: 10px;
+    color: white;
+    font-size: 1.05rem;
+    border: 1px solid grey;
+    border-left: none;
+    /* Prevent double borders */
+    cursor: pointer;
+}
+
+form.example button:hover {
+    background: #0b7dda;
+}
+
+/* Clear floats */
+form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* body */
+.article1, .article2{
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+    justify-content: center;
+    padding: 4.5rem;
+}
+
+.article3{
+    gap: 9rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('/assets/bg\ lagi.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.shop{
+    padding: 1.2rem;
+width: fit-content;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border: .5px solid black;
+}
+
+.shop:hover{
+    background-color: #186baf;
+    color: white;
+    cursor: pointer;
+}
+
+.model1, .model2{
+    width: 40vh;
+    height: 48vh;
+}
+
+.model2{
+ margin-top: 10.5rem;
+ margin-left: -2rem;
+}
+
+.model3{
+width: 60vh;
+height: 50vh;
+}
+
+.isi2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    border: none;
+}
+
+.product{
+    width: 50vh;
+    height: 60vh;
+}
+
+.checked{
+    color: yellow;
+}
+
+.article5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 10vh;
+}
+
+.isi2{
+    border: 0.5px solid gainsboro;
+    padding: 4rem;
+}
+
+.medsos a{
+    color: black;
+    font-size: 1.3rem;
+    text-decoration: none;
+}
+
+.about-us {
+    padding: 10px;
+}
+
+.about-us a:hover{
+    background-color: gray;
+    color: white !important;
+    padding: 5px;
+    border-radius: 50px;
+}
+
